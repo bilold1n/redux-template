@@ -1,0 +1,26 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 350px);
+  justify-content: space-between;
+  row-gap: 50px;
+  margin-top: 50px;
+}
+.icon {
+  zoom: 1.2;
+  border: 2px solid black;
+  padding: 5px;
+  border-radius: 50%;
+}
+.icon:hover {
+  transition: all 0.6s linear;
+  background-color: rgb(127, 138, 237);
+  color: red;
+}
+.btn {
+  margin-left: 15px;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: rgb(3, 8, 110);
+  text-decoration: none;
+  color: aliceblue;
+}

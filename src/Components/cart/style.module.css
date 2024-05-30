@@ -1,0 +1,29 @@
+.card {
+  padding: 10px 15px;
+  background-color: #fff;
+  border-radius: 11px;
+}
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.item {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 2px;
+  border: 1px solid black;
+}
+.countitem {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #312ed2;
+  color: #fff;
+  border-radius: 50%;
+  line-height: 50%;
+}

@@ -1,12 +1,14 @@
 import { createSlice } from "@reduxjs/toolkit";
 
-const initialState = [];
+const initialState = {
+  product: [],
+};
 export const ProductsSlise = createSlice({
   name: "product",
   initialState,
   reducers: {
     add: (state, { payload }) => {
-      state.push(...payload);
+      state.product.push(...payload);
     },
   },
 });

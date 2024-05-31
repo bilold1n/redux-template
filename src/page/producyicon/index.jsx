@@ -31,6 +31,7 @@ export default function Productitem({
       key={id}
       style={{
         width: 370,
+        overflow: "hidden",
       }}
       cover={
         <img
